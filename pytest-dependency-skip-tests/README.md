@@ -10,7 +10,7 @@ I installed pytest_dependency using pip and used the code from the above link.
 
 For some reason, it failed. I then added scope="module" and then the tests passed.
 
-On entering pytest -v test5.py,
+On entering pytest -v test.py,
 
 1. test_foo will run. If it passes, test_bar will be skipped.
 2. If test_foo fails, test_bar will run.
