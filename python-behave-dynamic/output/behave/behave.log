@@ -1,0 +1,22 @@
+Feature: Verify squared numbers # features/add_numbers.feature:12
+
+  Scenario Outline: Verify square for 1 -- @1.1 Static  # features/add_numbers.feature:19
+    Then the 1 squared is 1                             # features/steps/add_numbers_steps.py:24
+
+  Scenario Outline: Verify square for 2 -- @1.2 Static  # features/add_numbers.feature:20
+    Then the 2 squared is 4                             # features/steps/add_numbers_steps.py:24
+
+  Scenario Outline: Verify square for 3 -- @1.3 Static  # features/add_numbers.feature:21
+    Then the 3 squared is 9                             # features/steps/add_numbers_steps.py:24
+
+  Scenario Outline: Verify square for 4 -- @1.4 Static  # features/add_numbers.feature:22
+    Then the 4 squared is 16                            # features/steps/add_numbers_steps.py:24
+
+  @dynamic
+  Scenario Outline: Verify square for 5 -- @1.1 Dynamic  # features/add_numbers.feature:30
+    Then the 5 squared is 25                             # features/steps/add_numbers_steps.py:24
+
+  @dynamic
+  Scenario Outline: Verify square for 10 -- @1.2 Dynamic  # features/add_numbers.feature:30
+    Then the 10 squared is 100                            # features/steps/add_numbers_steps.py:24
+

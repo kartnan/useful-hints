@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="0.0036962032318115234" tests='6' skipped='0'
+name="Add_Numbers" failures='0' errors='0'><testcase time="0.0010027885437011719" name="Verify_Square_For_1_--_@1.1_Static" status="passed"
+         classname="Verify_Squared_Numbers"><system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Verify square for 1 -- @1.1 Static
+                then the 1 squared is 1 ... passed in 0.001003s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="0.0010514259338378906" name="Verify_Square_For_2_--_@1.2_Static" status="passed"
+         classname="Verify_Squared_Numbers"><system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Verify square for 2 -- @1.2 Static
+                then the 2 squared is 4 ... passed in 0.001051s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="0.0009748935699462891" name="Verify_Square_For_3_--_@1.3_Static" status="passed"
+         classname="Verify_Squared_Numbers"><system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Verify square for 3 -- @1.3 Static
+                then the 3 squared is 9 ... passed in 0.0009749s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="0.0" name="Verify_Square_For_4_--_@1.4_Static" status="passed"
+         classname="Verify_Squared_Numbers"><system-out>
+            <![CDATA[
+            @scenario.begin
+                
+                scenario: Verify square for 4 -- @1.4 Static
+                then the 4 squared is 16 ... passed in 0.0s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="0.0" name="Verify_Square_For_5_--_@1.1_Dynamic" status="passed"
+         classname="Verify_Squared_Numbers"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @dynamic
+                scenario: Verify square for 5 -- @1.1 Dynamic
+                then the 5 squared is 25 ... passed in 0.0s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="0.0006670951843261719" name="Verify_Square_For_10_--_@1.2_Dynamic" status="passed"
+         classname="Verify_Squared_Numbers"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @dynamic
+                scenario: Verify square for 10 -- @1.2 Dynamic
+                then the 10 squared is 100 ... passed in 0.0006671s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase></testsuite>
