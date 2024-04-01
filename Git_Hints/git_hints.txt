@@ -1,0 +1,11 @@
+to go back to a previous commit, type git revert followed by the commit id
+
+> git revert a6a414c949330753309160351ee96fca17bf6fc1 -m 1
+
+but if you get error, like
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed
+
+> git reset --hard a6a414c949330753309160351ee96fca17bf6fc1
+> git push -f
