@@ -9,3 +9,6 @@ fatal: revert failed
 
 > git reset --hard a6a414c949330753309160351ee96fca17bf6fc1
 > git push -f
+
+Additional info
+https://flummox-engineering.blogspot.com/2014/10/how-to-undo-git-commit-in-sourcetree.html
