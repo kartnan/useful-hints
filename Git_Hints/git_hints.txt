@@ -26,3 +26,12 @@ If you are trying to merge two unrelated repositories into one and need to prese
 you can do, 
 
 > git merge branch_b --allow-unrelated-histories
+
+----------------------------------------------------------------------------------------------
+
+To update the local list of remote branches:
+
+git remote update origin --prune
+To show all local and remote branches that (local) Git knows about:
+
+git branch -a
