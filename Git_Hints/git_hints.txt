@@ -12,3 +12,17 @@ fatal: revert failed
 
 Additional info
 https://flummox-engineering.blogspot.com/2014/10/how-to-undo-git-commit-in-sourcetree.html
+
+
+----------------------------------------------------------------------------------------------
+
+> git checkout branch_a
+> git merge branch_b
+
+fatal: refusing to merge unrelated histories
+
+If you are trying to merge two unrelated repositories into one and need to preserve comments for each,
+
+you can do, 
+
+> git merge branch_b --allow-unrelated-histories
